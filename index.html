@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Daily standup generator</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <style type="text/css">
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 60vh;
+      }
+
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
+
+      @media (min-width: 800px) and (max-width: 850px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
+
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+    </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <strong>Standupy</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Developerski
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Testerski</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Supportowy</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fab fa-github mr-2"></i>MDB GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Not enough-->
+      <section class="pt-5">
+
+        <h2 class="my-5 h3 text-center">Co robiłem wczoraj?</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-md-4">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Ostatnio był piątek</h6>
+                <p class="grey-text">To nie bardzo pamiętam, trochę czasu minęło
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">I ten task co o nim rozmawialiśmy</h6>
+                <p class="grey-text">Robiłem, i tam robię jeszcze ale już jest lepiej, wygląda to coraz bardziej ok
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+                <div class="col-10">
+                <h6 class="feature-title">Retrospektywa, planowanie, meet zdalny</h6>
+                <p class="grey-text">Poprzeciany cały dzień spotkań, na wszytkie musiałem się przygotować i tak zleciało.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Trochę refaktoryzowałem</h6>
+                <p class="grey-text">Akurat tam już jest całkiem dobrze to reorganizację kodu robiłem, zwiększałem czytelność takie tam</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-4 flex-center">
+            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
+          </div>
+          <!--/Second column-->
+
+          <!--Third column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Katch upy z Andrzejem, Zenonem</h6>
+                <p class="grey-text">Łapaliśmy się trochę zdalnie, musięliśmy omówić tam jedną sprawę to już Andrzej powie pewnie.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">I tam mi środowisko się zaktualizowało i coś nie działało</h6>
+                <p class="grey-text">Musiałem poprawiać przeinstalować już chyba ok, ale coś wolno chodzi.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Środowisko lokalne mi przestało działać</h6>
+                <p class="grey-text">Musiałem przywracać snapshoty poinstalować aktualne artefakty no zeszło się
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">W wolnej chwili robiłem code review</h6>
+                <p class="grey-text">Tego kodu co tam spłynął ostatnio</p>
+                <div style="height:15px"></div>
+              </div>         
+                 <!--/Fourth row-->
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--Section: Not enough-->
+
+      <!--Section: More-->
+      <section class="mt-5">
+
+        <h2 class="my-5 h3 text-center">...co będę robił dziś?</h2>
+
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2 pl-3">
+                <h5 class="feature-title font-bold mb-1">Fakturkę muszę wystawić, godzinki wypełnić</h5>
+                <p class="grey-text mt-2">Kończy się miesiąc wiadomo
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Muszę się przygotować na spotkanka</h5>
+                <p class="grey-text mt-2">Bo jakieś mi powypadały, analizę małą muszę zrobić
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Support na bieżąco</h5>
+                <p class="grey-text mt-2">Tam jakby ktoś potrzebował się łapać to zapraszam zachęcam
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Błędy z sonara, z linta musze porozwiązywać</h5>
+                <p class="grey-text mt-2">Jakieś minory mi wyskoczyły chciałem zobaczyć czy to fałszywy alarm w ogóle jest
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+
+        <!--Second row-->
+        <div class="row features-small mt-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Pewnie testy będzie trzeba jakieś dopisać</h5>
+                <p class="grey-text mt-2">Bo już całkiem nieźle to wygląda ale testów nie pisałem to nadgonię trochę</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">No i dzisiaj będę jeszcze kończył</h5>
+                <p class="grey-text mt-2">Zobaczymy jak pójdzie, ewentualnie będę się z kimś łapał
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Będę czegoś szukał jak skończę</h5>
+                <p class="grey-text mt-2">Widziałem, że są jakieś zadanka na boardzie</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Dzisiaj muszę trochę wcześniej wyjść</h5>
+                <p class="grey-text mt-2">Bo mam coś do załatwienia, a póki co to muszę jeszcze kompa naprawiać bo coś mi nie działa.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Second row-->
+
+      </section>
+           <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 class="h3 text-center mb-5">O standupach</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-smile fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Skupienie na osobie</h5>
+                <p class="grey-text">Przechodzenie po osobach skupia ich uwagę na tym co powiedzieć, przez co nie słuchają innych przed wypowiedzią. Po wypowiedzi też nie muszą się skupiać, bo załatwili swoje sprawy</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-book fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Skupienie na taskach</h5>
+                <p class="grey-text">Przejście po boardzie i omówienie ważnych ticketów, powoduje, że mówimy o pracy-nie o ludziach. Wymusza skupienie zespołu, podejmowanie akcji, rozmawianie o problemach.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4">Sprawdź jak możesz pozbyć się problemu</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H02BlTXpcto" allowfullscreen></iframe>
+            </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
+        <i class="fas fa-download ml-2"></i>
+      </a>
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
+        <i class="fas fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+        <i class="fab fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+        <i class="fab fa-codepen mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
