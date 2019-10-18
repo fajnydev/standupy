@@ -1,0 +1,97 @@
+{
+  "version": "0001",
+  "excuses": {
+    "yesterday": [
+      {
+        "title": "Ostatnio był piątek",
+        "desc": "To nie bardzo pamiętam, trochę czasu minęło"
+      },
+      {
+        "title": "I ten task co o nim rozmawialiśmy",
+        "desc": "Robiłem, i tam robię jeszcze ale już jest lepiej, wygląda to coraz bardziej ok"
+      },
+      {
+        "title": "Retrospektywa, planowanie, meet zdalny",
+        "desc": "Poprzeciany cały dzień spotkań, na wszytkie musiałem się przygotować i tak zleciało."
+      },
+      {
+        "title": "Trochę refaktoryzowałem",
+        "desc": "Akurat tam już jest całkiem dobrze to reorganizację kodu robiłem, zwiększałem czytelność takie tam"
+      },
+      {
+        "title": "U mnie wczoraj testy na preprodzie",
+        "desc": "Dzisiaj od rana tickety niektóre wziąłem i sprawdzałem"
+      },
+      {
+        "title": "Katch upy z Andrzejem, Zenonem",
+        "desc": "Łapaliśmy się trochę zdalnie, musięliśmy omówić tam jedną sprawę to już Andrzej powie pewnie."
+      },
+      {
+        "title": "I tam mi środowisko się zaktualizowało i coś nie działało",
+        "desc": "Musiałem poprawiać przeinstalować już chyba ok, ale coś wolno chodzi."
+      },
+      {
+        "title": "Środowisko lokalne mi przestało działać",
+        "desc": "Musiałem przywracać snapshoty poinstalować aktualne artefakty no zeszło się"
+      },
+      {
+        "title": "W wolnej chwili robiłem code review",
+        "desc": "Tego kodu co tam spłynął ostatnio"
+      }
+    ],
+    "today": [
+      {
+        "title": "Fakturkę muszę wystawić, godzinki wypełnić",
+        "desc": "Kończy się miesiąc wiadomo"
+      },
+      {
+        "title": "Powychodziły jakieś błędy w automatach to inwestyguję",
+        "desc": "Chyba fałszywe alarmy ale to muszę zajrzeć"
+      },
+      {
+        "title": "Muszę się przygotować na spotkanka",
+        "desc": "Bo jakieś mi powypadały, analizę małą muszę zrobić"
+      },
+      {
+        "title": "Dzisiaj trochę spraw pozaprojektowych",
+        "desc": "Ale walcie do mnie śmiało w razie czego się przełączam"
+      },
+      {
+        "title": "Support na bieżąco",
+        "desc": "Tam jakby ktoś potrzebował się łapać to zapraszam zachęcam"
+      },
+      {
+        "title": "Udało mi się rozpieprzyć wirtualkę",
+        "desc": "Snapshot jakiś lewy był to muszę stawiać od nowa i doprowadzę ją do porządku"
+      },
+      {
+        "title": "Błędy z sonara, z linta musze porozwiązywać",
+        "desc": "Jakieś minory mi wyskoczyły chciałem zobaczyć czy to fałszywy alarm w ogóle jest"
+      },
+      {
+        "title": "Jeszcze Przemek mi jedną dobrą radę dał",
+        "desc": "I będę się do tego dostosowywał, poprawię i wypycham"
+      },
+      {
+        "title": "Pewnie testy będzie trzeba jakieś dopisać",
+        "desc": "Bo już całkiem nieźle to wygląda ale testów nie pisałem to nadgonię trochę"
+      },
+      {
+        "title": "No i dzisiaj będę jeszcze kończył",
+        "desc": "Zobaczymy jak pójdzie, ewentualnie będę się z kimś łapał"
+      },
+      {
+        "title": "Poprawki zasugerowane w code review",
+        "desc": "Implementuję te sugestie"
+      },
+      {
+        "title": "Będę czegoś szukał jak skończę",
+        "desc": "Widziałem, że są jakieś zadanka na boardzie"
+      },
+      {
+        "title": "Dzisiaj muszę trochę wcześniej wyjść",
+        "desc": "Bo mam coś do załatwienia, a póki co to muszę jeszcze kompa naprawiać bo coś mi nie działa."
+      }
+    ]
+  }
+}
