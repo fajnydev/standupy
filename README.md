@@ -1,6 +1,3 @@
----
-permalink: /index.html
----
 # Dlaczego robimy standupy źle?
 
 ## Skupienie na osobie
