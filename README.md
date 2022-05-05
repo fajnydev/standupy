@@ -1,4 +1,4 @@
-# Dlaczego robimy standupy źle?!
+# Dlaczego robimy standupy źle?
 
 ## Skupienie na osobie
 
