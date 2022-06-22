@@ -13,4 +13,4 @@ Przejście po boardzie i omówienie ważnych ticketów, powoduje, że mówimy o 
 # Leniwy dzień? 
 # Stronka z wymówkami na standupy:
 
-https://wrzosdev.github.io/standupy/
+https://fajnydev.github.io/standupy/
